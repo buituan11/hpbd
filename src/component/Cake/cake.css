@@ -15,6 +15,9 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	-webkit-animation: jelly 0.8s both;
+	        animation: jelly 0.8s both;
+	animation-iteration-count: infinite;
 }
 .cake-candle>img{ height: 30%; }
 .cake-candle>div{ width: 10%; height: 60%; background-color: pink }
@@ -188,8 +191,8 @@
 	height: 50px;
 	border-radius: 50%;
 	color: brown;
-	-webkit-animation: question 0.8s both;
-	        animation: question 0.8s both;
+	-webkit-animation: jelly 0.8s both;
+	        animation: jelly 0.8s both;
 	animation-iteration-count: infinite;
 	position: absolute;
 	left: 0px;
@@ -214,7 +217,7 @@
 	}
 }
 
-@-webkit-keyframes question {
+/* @-webkit-keyframes question {
   0%,
   100% {
     -webkit-transform: translateX(0%);
@@ -271,6 +274,22 @@
     -webkit-transform: translateX(-6px) rotate(0.8deg);
             transform: translateX(-6px) rotate(0.8deg);
   }
+} */
+
+@keyframes jelly {
+  0%,
+  100% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    transform: scale(0.95, 1.05);
+  }
 }
 
 .hint{
@@ -285,7 +304,7 @@
   background-color: none;
   border: none;
   width: 50px !important;
-  height: 50px !important;
+  height: 65px !important;
   border-radius: 50%;
 }
 .stuff-eg{

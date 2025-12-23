@@ -33,27 +33,27 @@
   border-radius: 10px;
 }
 .a {
-  background: url("https://res.cloudinary.com/buituan/image/upload/v1568689472/Hpbd/a.jpg") center center;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG7-daTzZQ01_jKHqGFtDD8ts4u5DuzEKDsA&s") center center;
   background-size: cover;
   transform: rotateY(0deg) translateZ(250px);
 }
 .b {
-  background: url("https://res.cloudinary.com/buituan/image/upload/v1568684378/Hpbd/b.jpg") center center;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXthFUsnUxxuAgv_SzxgsbLTOlOqI_Q5xmxQ&s") center center;
   background-size: cover;
   transform: rotateY(60deg) translateZ(250px);
 }
 .c {
-  background: url("https://res.cloudinary.com/buituan/image/upload/v1568684378/Hpbd/c.jpg") center center;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcudcK_sBKxRNk00XALZ-GyDVvFol1iO0e6Q&s") center center;
   background-size: cover;
   transform: rotateY(120deg) translateZ(250px);
 }
 .d {
-  background: url("https://res.cloudinary.com/buituan/image/upload/v1568684378/Hpbd/d.jpg") center center;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2UnQHJoGkhq2yJ7DnPCUh5tdQPm_wEM5iuA&s") center center;
   background-size: cover;
   transform: rotateY(180deg) translateZ(250px);
 }
 .e {
-  background: url("https://res.cloudinary.com/buituan/image/upload/v1568684378/Hpbd/e.jpg") ;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGMoMzAyU-0ppvKo_61JRW-EMKjV8oUW0o1A&s") ;
   background-size: cover;
   transform: rotateY(240deg) translateZ(250px);
 } 
@@ -68,7 +68,7 @@
   left: 0px;
 }
 .f {
-  background: url("https://res.cloudinary.com/buituan/image/upload/v1568684378/Hpbd/f.jpg") center center;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2GANFMC10bkR1uY7QlAHCUXjuICxqticbtQ&s") center center;
   background-size: cover;
   transform: rotateY(300deg) translateZ(250px);
 }

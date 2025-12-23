@@ -12,3 +12,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+.tooltip {
+  position: relative;
+  cursor: pointer;
+}
+
+/* Tooltip box */
+.tooltip-text {
+  position: absolute;
+  bottom: 125%; /* position above */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+
+  /* opacity: 0; */
+  /* visibility: hidden; */
+  transition: opacity 0.2s ease;
+}
+
+/* Tooltip arrow */
+.tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 5px;
+  border-style: solid;
+  border-color: #333 transparent transparent transparent;
+}
+
+/* Show on hover */
+/* .tooltip:hover .tooltip-text {
+  opacity: 1;
+  visibility: visible;
+} */

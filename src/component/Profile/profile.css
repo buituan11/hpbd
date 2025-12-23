@@ -68,8 +68,8 @@
 	right: 10px;
 	background-color: #FFD699;
 }
-.profile-item>#stuff-a{ width: 125px; height: 50px; }
-.profile-item>#stuff-b{ width: 100px; height: 50px; }
+.profile-item>#stuff-a{ width: 125px; height: 50px; border-top-left-radius: 12px; border-top-right-radius: 12px;}
+.profile-item>#stuff-b{ width: 100px; height: 50px; border-top-left-radius: 12px; border-top-right-radius: 12px; }
 
 .remind{
 	position: absolute;
